@@ -1,10 +1,2 @@
-
-nome = prompt('Qual seu nome?');
-idade = prompt('Digite sua idade');
-
-if (idade >= 18) {
-    alert ('Pode tirar habilitacao!')
-}
-else {
-    alert ('Nao pode tirar habilitacao!')
-};
+let nome = prompt('Digite seu nome:');
+alert(`Bem vindo(a) ${nome}`);
