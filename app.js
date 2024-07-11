@@ -1,7 +1,3 @@
-let nmrdigitado = prompt('Digite um número');
-let inicio = 0;
+let numeroaleatorio = parseInt(Math.random() * 1000) +1; 
 
-while(inicio <= nmrdigitado) {
-    console.log(inicio);
-    inicio++;
-}
+console.log(numeroaleatorio);
